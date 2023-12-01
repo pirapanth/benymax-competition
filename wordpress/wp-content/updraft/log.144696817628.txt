@@ -1,0 +1,203 @@
+0000.066 (0) Opened log file at time: Sat, 23 Jul 2022 11:52:28 +0000 on http://localhost/wordpress
+0000.290 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.14 WP: 6.0.1 PHP: 7.3.28 (apache2handler, Windows NT DESKTOP-52SA890 10.0 build 22000 (Windows 10) AMD64) MySQL: 10.4.19-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.3.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 38.9M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.339 (0) Free space on disk containing Updraft's temporary directory: 525135.1 MB
+0000.422 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.476 (0) Semaphore (fd, wp_options) being initialised
+0000.614 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.959 (0) Set semaphore last lock (fd) time to 2022-07-23 11:52:29
+0001.006 (0) Semaphore lock (fd) complete
+0001.319 (0) Backup run: resumption=0, nonce=144696817628, file_nonce=144696817628 begun at=1658577148 (1s ago), job type=backup
+0001.453 (0) Scheduling a resumption (1) after 300 seconds (1658577449) in case this run gets aborted
+0001.697 (0) Checking if we have a zip executable available
+0001.822 (0) Creation of backups of directories: beginning
+0002.007 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0005.041 (0) Total entities for the zip file: 472 directories, 2364 files (0 skipped as non-modified), 50.8 MB
+0005.137 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.595 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 100 files added (on-disk size: 81.2 KB)
+0006.089 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 200 files added (on-disk size: 81.2 KB)
+0006.237 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 300 files added (on-disk size: 81.2 KB)
+0006.371 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 400 files added (on-disk size: 81.2 KB)
+0006.559 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 500 files added (on-disk size: 81.2 KB)
+0006.673 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 600 files added (on-disk size: 81.2 KB)
+0006.829 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 700 files added (on-disk size: 81.2 KB)
+0006.948 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 800 files added (on-disk size: 81.2 KB)
+0007.014 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 2364 files batched, 811 (812) added so far); re-opening (prior size: 81.2 KB)
+0019.027 (0) A useful amount of data was added after this amount of zip processing: 13.6 s (normalised: 13.6 s, rate: 1887.6 KB/s)
+0019.523 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 900 files added (on-disk size: 7069.9 KB)
+0019.658 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 1000 files added (on-disk size: 7069.9 KB)
+0019.782 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 1100 files added (on-disk size: 7069.9 KB)
+0019.904 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 1200 files added (on-disk size: 7069.9 KB)
+0020.249 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 1300 files added (on-disk size: 7069.9 KB)
+0020.700 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 1400 files added (on-disk size: 7069.9 KB)
+0021.479 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (19.9 MB, 661 (1473) files added so far); re-opening (prior size: 7069.9 KB)
+0041.716 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 1500 files added (on-disk size: 12597.4 KB)
+0042.229 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 1600 files added (on-disk size: 12597.4 KB)
+0042.501 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 1700 files added (on-disk size: 12597.4 KB)
+0042.651 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 1800 files added (on-disk size: 12597.4 KB)
+0042.784 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 1900 files added (on-disk size: 12597.4 KB)
+0043.136 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 2000 files added (on-disk size: 12597.4 KB)
+0043.465 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.8 MB, 602 (2075) files added so far); re-opening (prior size: 12597.4 KB)
+0055.325 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 2100 files added (on-disk size: 14099.1 KB)
+0055.486 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 2200 files added (on-disk size: 14099.1 KB)
+0055.678 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.tmp: 2300 files added (on-disk size: 14099.1 KB)
+0060.446 (0) Creating zip file manifest (backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.list-temp.tmp)
+0060.638 (0) Successfully created zip file manifest (size: 192566)
+0062.425 (0) Created plugins zip (0) - 14493.7 KB in 60.4 s (240.1 KB/s) (sha1: 0839c4ed260ac397af1155e926e30afe15716486, sha256: b0b83acc5ab0986d1f0f6e8702e1b50fd224473ac6bdc95654547ee59aeb3ac1)
+0062.929 (0) Beginning creation of dump of themes (split every: 400 MB)
+0065.170 (0) Total entities for the zip file: 87 directories, 422 files (0 skipped as non-modified), 11.8 MB
+0065.475 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 MB, 49 (49) files added so far); re-opening (prior size: 0 KB)
+0067.303 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-themes.zip.tmp: 100 files added (on-disk size: 663.1 KB)
+0068.502 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-themes.zip.tmp: 200 files added (on-disk size: 663.1 KB)
+0068.728 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-themes.zip.tmp: 300 files added (on-disk size: 663.1 KB)
+0069.470 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (9.4 MB, 273 (322) files added so far); re-opening (prior size: 663.1 KB)
+0077.608 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-themes.zip.tmp: 400 files added (on-disk size: 8081.8 KB)
+0079.033 (0) Creating zip file manifest (backup_2022-07-23-1152_Benny_Max_144696817628-themes.zip.list-temp.tmp)
+0079.247 (0) Successfully created zip file manifest (size: 29437)
+0079.838 (0) Created themes zip (0) - 9554.9 KB in 16.8 s (567.8 KB/s) (sha1: 50b5a60d81054788ae839f334141d4c6e4efaadd, sha256: 3fe2c493d7c68ffd4e017c41aee0a7a1cab9103a513890965a7525541df7993e)
+0080.043 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0080.127 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0080.211 (0) finding files: 2022: adding to list (1)
+0080.407 (0) finding files: elementor: adding to list (2)
+0080.501 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0080.962 (0) Total entities for the zip file: 5 directories, 117 files (0 skipped as non-modified), 7 MB
+0083.498 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.7 MB, 52 (52) files added so far); re-opening (prior size: 0 KB)
+0088.039 (0) Zip: backup_2022-07-23-1152_Benny_Max_144696817628-uploads.zip.tmp: 100 files added (on-disk size: 2794 KB)
+0088.469 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.9 MB, 55 (107) files added so far); re-opening (prior size: 2794 KB)
+0092.062 (0) Creating zip file manifest (backup_2022-07-23-1152_Benny_Max_144696817628-uploads.zip.list-temp.tmp)
+0092.314 (0) Successfully created zip file manifest (size: 5999)
+0092.775 (0) Created uploads zip (0) - 7138.4 KB in 12.2 s (586.4 KB/s) (sha1: 340392431493d888769e706c874cccde68f4ac4c, sha256: 72c8992219b465da3b3331dedbc4387047cb9c70eb4c059653df8db20d043adf)
+0092.929 (0) Beginning backup of other directories found in the content directory (index: 0)
+0093.014 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0093.107 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content
+0093.181 (0) finding files: index.php: adding to list (1)
+0093.315 (0) finding files: plugins: skipping: this is the plugins directory
+0093.454 (0) finding files: themes: skipping: this is the themes directory
+0093.620 (0) finding files: updraft: skipping: this is the updraft directory
+0093.744 (0) finding files: upgrade: skipping: excluded by options
+0094.164 (0) finding files: uploads: skipping: this is the uploads directory
+0094.450 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0095.173 (0) Creating zip file manifest (backup_2022-07-23-1152_Benny_Max_144696817628-others.zip.list-temp.tmp)
+0095.245 (0) Successfully created zip file manifest (size: 43)
+0095.552 (0) Created others zip (0) - 0.1 KB in 1.2 s (0.1 KB/s) (sha1: 272958ba53989d0a71f4fb1f74ea232e59bb73a5, sha256: c1475d0e94ef9efd33844e2c926a049a96f59024db7bbd5cb1f08486800431b0)
+0095.914 (0) Saving backup status to database (elements: 8)
+0096.048 (0) Beginning creation of database dump (WordPress DB)
+0096.311 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0098.637 (0) Table wp_options: Total expected rows (via COUNT): 196
+0098.721 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0098.955 (0) Table wp_options: Rows added in this batch (next record: 748): 192 (uncompressed bytes in this segment=597431) in 1.33 seconds
+0099.337 (0) Table wp_options: finishing file(s) (2, 63.7 KB)
+0100.060 (0) Table wp_users: Total expected rows (via COUNT): 1
+0100.173 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0100.392 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1370) in 0.51 seconds
+0100.621 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0100.904 (0) Table wp_usermeta: Total expected rows (via COUNT): 23
+0100.977 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0101.063 (0) Table wp_usermeta: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=3111) in 0.29 seconds
+0101.498 (0) Table wp_usermeta: finishing file(s) (2, 1.3 KB)
+0102.080 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0102.259 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.44 seconds
+0102.770 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0103.064 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0103.152 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0103.324 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2097) in 0.34 seconds
+0103.925 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0105.101 (0) Table wp_links: Total expected rows (via COUNT): 0
+0105.269 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.19 seconds
+0105.520 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0107.647 (0) Table wp_postmeta: Total expected rows (via COUNT): 701
+0107.732 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0108.498 (0) Table wp_postmeta: Rows added in this batch (next record: 914): 701 (uncompressed bytes in this segment=1417479) in 2.81 seconds
+0109.348 (0) Table wp_postmeta: finishing file(s) (2, 55.5 KB)
+0111.049 (0) Table wp_posts: Total expected rows (via COUNT): 138
+0111.133 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0111.361 (0) Table wp_posts: Rows added in this batch (next record: 159): 138 (uncompressed bytes in this segment=460105) in 1.45 seconds
+0112.049 (0) Table wp_posts: finishing file(s) (2, 32.1 KB)
+0112.406 (0) Table wp_term_relationships: Total expected rows (approximate): 4
+0112.583 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 5 (uncompressed bytes in this segment=743) in 0.19 seconds
+0112.933 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0113.216 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 3
+0113.403 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0113.626 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=970) in 0.51 seconds
+0114.226 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0115.013 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0115.198 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.68 seconds
+0115.529 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0115.647 (0) Table wp_terms: Total expected rows (via COUNT): 3
+0115.724 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0115.846 (0) Table wp_terms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=810) in 0.22 seconds
+0116.033 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0116.673 (0) Table wp_e_events: Total expected rows (via COUNT): 9
+0116.730 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.815 (0) Table wp_e_events: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=2373) in 0.16 seconds
+0117.011 (0) Table wp_e_events: finishing file(s) (2, 0.7 KB)
+0117.083 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_options.table.tmpr749.gz (1/13/fopen): adding to final database dump
+0117.136 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_options.table.gz (2/13/fopen): adding to final database dump
+0117.228 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_users.table.tmpr2.gz (3/13/fopen): adding to final database dump
+0117.278 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_users.table.gz (4/13/fopen): adding to final database dump
+0117.329 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_usermeta.table.tmpr24.gz (5/13/fopen): adding to final database dump
+0117.390 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_usermeta.table.gz (6/13/fopen): adding to final database dump
+0117.452 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_commentmeta.table.tmpr0.gz (7/13/fopen): adding to final database dump
+0117.537 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_commentmeta.table.gz (8/13/fopen): adding to final database dump
+0117.599 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_comments.table.tmpr2.gz (9/13/fopen): adding to final database dump
+0117.671 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_comments.table.gz (10/13/fopen): adding to final database dump
+0117.772 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_links.table.tmpr0.gz (11/13/fopen): adding to final database dump
+0117.834 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_links.table.gz (12/13/fopen): adding to final database dump
+0117.885 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_postmeta.table.tmpr915.gz (13/13/fopen): adding to final database dump
+0117.926 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_postmeta.table.gz (14/13/fopen): adding to final database dump
+0117.975 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_posts.table.tmpr160.gz (15/13/fopen): adding to final database dump
+0118.027 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_posts.table.gz (16/13/fopen): adding to final database dump
+0118.087 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_term_relationships.table.tmpr100001.gz (17/13/fopen): adding to final database dump
+0118.138 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_term_relationships.table.gz (18/13/fopen): adding to final database dump
+0118.199 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_term_taxonomy.table.tmpr4.gz (19/13/fopen): adding to final database dump
+0118.250 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_term_taxonomy.table.gz (20/13/fopen): adding to final database dump
+0118.300 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_termmeta.table.tmpr0.gz (21/13/fopen): adding to final database dump
+0118.368 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_termmeta.table.gz (22/13/fopen): adding to final database dump
+0118.418 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_terms.table.tmpr4.gz (23/13/fopen): adding to final database dump
+0118.470 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_terms.table.gz (24/13/fopen): adding to final database dump
+0118.531 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_e_events.table.tmpr10.gz (25/13/fopen): adding to final database dump
+0118.582 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db-table-wp_e_events.table.gz (26/13/fopen): adding to final database dump
+0118.669 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db.gz: finished writing out complete database file (157.4 KB)
+0119.054 (0) Total database tables backed up: 13 (backup_2022-07-23-1152_Benny_Max_144696817628-db.gz, size: 161315, sha1: 1cd2b72fd76ed42b6b5a6f46a7b666b2f4f20db1, sha256: a0cc0fc55dff9a933cadaf9dca995f923ef42f6b2950a68ff1b236868c4573d2)
+0119.296 (0) backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0119.382 (0) backup_2022-07-23-1152_Benny_Max_144696817628-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0119.443 (0) backup_2022-07-23-1152_Benny_Max_144696817628-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0119.504 (0) backup_2022-07-23-1152_Benny_Max_144696817628-others.zip: others: This file has not yet been successfully uploaded: will queue
+0119.891 (0) backup_2022-07-23-1152_Benny_Max_144696817628-db.gz: db: This file has not yet been successfully uploaded: will queue
+0120.032 (0) Saving backup history. Total backup size: 30.6 MB
+0120.144 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0120.307 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0120.357 (0) No remote despatch: user chose no remote backup service
+0120.418 (0) Recording as successfully uploaded: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip
+0120.531 (0) Deleting zip manifest (backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip.list.tmp)
+0120.684 (0) Recording as successfully uploaded: backup_2022-07-23-1152_Benny_Max_144696817628-themes.zip
+0120.785 (0) Deleting zip manifest (backup_2022-07-23-1152_Benny_Max_144696817628-themes.zip.list.tmp)
+0120.837 (0) Recording as successfully uploaded: backup_2022-07-23-1152_Benny_Max_144696817628-uploads.zip
+0120.939 (0) Deleting zip manifest (backup_2022-07-23-1152_Benny_Max_144696817628-uploads.zip.list.tmp)
+0121.113 (0) Recording as successfully uploaded: backup_2022-07-23-1152_Benny_Max_144696817628-others.zip
+0121.247 (0) Deleting zip manifest (backup_2022-07-23-1152_Benny_Max_144696817628-others.zip.list.tmp)
+0121.348 (0) Recording as successfully uploaded: backup_2022-07-23-1152_Benny_Max_144696817628-db.gz
+0121.544 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0121.595 (0) Number of backup sets in history: 1; groups (db): 1
+0121.644 (0) Examining (for databases) backup set with group_id=0, nonce=144696817628, datestamp=1658577148 (Jul 23 2022 11:52:28)
+0121.787 (0) This backup set is the backup set just made, so will not be deleted.
+0121.787 (0) Number of backup sets in history: 1; groups (files): 1
+0121.871 (0) Examining (for files) backup set with nonce=144696817628, datestamp=1658577148 (Jul 23 2022 11:52:28)
+0121.871 (0) This backup set is the backup set just made, so will not be deleted.
+0121.954 (0) This backup set is the backup set just made, so will not be deleted.
+0121.955 (0) This backup set is the backup set just made, so will not be deleted.
+0121.955 (0) This backup set is the backup set just made, so will not be deleted.
+0121.955 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0122.027 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0122.189 (0) Resume backup (144696817628, 0): finish run
+0122.461 (0) Decremented the semaphore (fd) by 1
+0122.553 (0) Semaphore (fd) unlocked
+0122.592 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0122.756 (0) No email will/can be sent - the user has not configured an email address.
+0123.174 (0) The backup apparently succeeded and is now complete
+0000.000 (1) Opened log file at time: Sat, 23 Jul 2022 12:04:50 +0000 on http://localhost/wordpress
+0000.855 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.14 WP: 6.0.1 PHP: 7.3.28 (apache2handler, Windows NT DESKTOP-52SA890 10.0 build 22000 (Windows 10) AMD64) MySQL: 10.4.19-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.3.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 32.8M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.962 (1) Free space on disk containing Updraft's temporary directory: 525046.5 MB
+0001.178 (1) Requesting backup semaphore lock (144696817628)
+0001.491 (1) [Debug] Lock option (updraft_lock_144696817628, wp_options) was created in the database
+0001.647 (1) [Info] Lock (updraft_lock_144696817628, wp_options) acquired after initialising the database
+0002.273 (1) This backup task (144696817628) is either complete or began over 2 days ago: ending (1658577890.709, ) (existing jobdata keys: )

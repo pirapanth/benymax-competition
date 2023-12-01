@@ -1,0 +1,85 @@
+0000.327 (R) [notice] Looking for db archive: file name: backup_2022-07-23-1152_Benny_Max_144696817628-db.gz
+0000.328 (R) [notice] Archive is expected to be size: 157.5 KB: OK
+0000.362 (R) [notice] Looking for plugins archive: file name: backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip
+0000.364 (R) [notice] Archive is expected to be size: 14493.7 KB: OK
+0000.368 (R) [notice] Looking for themes archive: file name: backup_2022-07-23-1152_Benny_Max_144696817628-themes.zip
+0000.370 (R) [notice] Archive is expected to be size: 9554.9 KB: OK
+0000.374 (R) [notice] Looking for uploads archive: file name: backup_2022-07-23-1152_Benny_Max_144696817628-uploads.zip
+0000.403 (R) [notice] Archive is expected to be size: 7138.4 KB: OK
+0000.407 (R) [notice] Looking for others archive: file name: backup_2022-07-23-1152_Benny_Max_144696817628-others.zip
+0000.408 (R) [notice] Archive is expected to be size: 0.1 KB: OK
+0000.413 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.503 (R) [notice] Unpacking backup... (backup_2022-07-23-1152_Benny_Max_144696817628-db.gz, 0.2 Mb)
+0000.534 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0003.755 (R) [notice] Enabling Maintenance mode&#8230;
+0005.760 (R) [notice] Backup of: http://localhost/wordpress
+0005.762 (R) [notice] Content URL: http://localhost/wordpress/wp-content
+0005.763 (R) [notice] Uploads URL: http://localhost/wordpress/wp-content/uploads
+0005.763 (R) [notice] Old table prefix: wp_
+0005.764 (R) [notice] Site information: multisite = 0
+0005.764 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0005.770 (R) [notice] New table prefix: 3r_
+0005.849 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: 3r_options
+0014.331 (R) [notice] Atomic restore: dropping original table (wp_options)
+0015.246 (R) [notice] Atomic restore: renaming new table (3r_options) to final table name (wp_options)
+0020.474 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: 3r_users
+0021.922 (R) [notice] Atomic restore: dropping original table (wp_users)
+0022.697 (R) [notice] Atomic restore: renaming new table (3r_users) to final table name (wp_users)
+0023.076 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: 3r_usermeta
+0024.240 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0025.127 (R) [notice] Atomic restore: renaming new table (3r_usermeta) to final table name (wp_usermeta)
+0025.474 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: 3r_commentmeta
+0026.040 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0026.446 (R) [notice] Atomic restore: renaming new table (3r_commentmeta) to final table name (wp_commentmeta)
+0026.712 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: 3r_comments
+0027.590 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0027.945 (R) [notice] Atomic restore: renaming new table (3r_comments) to final table name (wp_comments)
+0028.159 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: 3r_links
+0029.009 (R) [notice] Atomic restore: dropping original table (wp_links)
+0029.242 (R) [notice] Atomic restore: renaming new table (3r_links) to final table name (wp_links)
+0029.591 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: 3r_postmeta
+0032.861 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0033.950 (R) [notice] Atomic restore: renaming new table (3r_postmeta) to final table name (wp_postmeta)
+0034.433 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: 3r_posts
+0037.124 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0037.490 (R) [notice] Atomic restore: renaming new table (3r_posts) to final table name (wp_posts)
+0037.718 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: 3r_term_relationships
+0038.500 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0038.736 (R) [notice] Atomic restore: renaming new table (3r_term_relationships) to final table name (wp_term_relationships)
+0039.314 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: 3r_term_taxonomy
+0040.022 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0040.793 (R) [notice] Atomic restore: renaming new table (3r_term_taxonomy) to final table name (wp_term_taxonomy)
+0041.013 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: 3r_termmeta
+0042.555 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0042.970 (R) [notice] Atomic restore: renaming new table (3r_termmeta) to final table name (wp_termmeta)
+0043.234 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: 3r_terms
+0044.129 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0044.459 (R) [notice] Atomic restore: renaming new table (3r_terms) to final table name (wp_terms)
+0045.576 (R) [notice] Processing table (InnoDB):  wp_e_events - will restore as: 3r_e_events
+0047.025 (R) [notice] Disabling Maintenance mode&#8230;
+0047.026 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0047.343 (R) [notice] Atomic restore: renaming new table (3r_e_events) to final table name (wp_e_events)
+0047.688 (R) [notice] Finished: lines processed: 48 in 46.99 seconds
+0047.689 (R) [notice] Cleaning up rubbish...
+0048.257 (R) [notice] Unpacking backup... (backup_2022-07-23-1152_Benny_Max_144696817628-plugins.zip, 14.2 MB)
+0059.366 (R) [notice] Unzip progress: 1002 out of 2836 files (23.1 MB, plugins/elementor/core/frontend/render-modes/render-mode-normal.php)
+0075.106 (R) [notice] Unzip progress: 1424 out of 2836 files (27.2 MB, plugins/updraftplus/images/icons/dreamobjects.png)
+0091.110 (R) [notice] Unzip progress: 2222 out of 2836 files (47.2 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/Cookie/CookieParser.php)
+0100.546 (R) [notice] Unzip progress: 2836 out of 2836 files (50.8 MB, plugins/updraftplus/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-tasks-activation.php)
+0100.657 (R) [notice] Moving old data out of the way...
+0104.985 (R) [notice] Moving unpacked backup into place...
+0105.801 (R) [notice] Cleaning up rubbish...
+0106.332 (R) [notice] Unpacking backup... (backup_2022-07-23-1152_Benny_Max_144696817628-themes.zip, 9.3 MB)
+0111.759 (R) [notice] Unzip progress: 509 out of 509 files (11.8 MB, themes/twentytwentytwo/theme.json)
+0111.855 (R) [notice] Moving old data out of the way...
+0113.665 (R) [notice] Moving unpacked backup into place...
+0113.804 (R) [notice] Cleaning up rubbish...
+0114.039 (R) [notice] Unpacking backup... (backup_2022-07-23-1152_Benny_Max_144696817628-uploads.zip, 7 MB)
+0117.382 (R) [notice] Unzip progress: 122 out of 122 files (7 MB, uploads/elementor/thumbs/writing-ps19prkiqglbiw05bfx7a538bb8t40dh4x0yaa4ojk.jpg)
+0117.386 (R) [notice] Moving old data out of the way...
+0117.643 (R) [notice] Moving unpacked backup into place...
+0117.673 (R) [notice] Cleaning up rubbish...
+0117.823 (R) [notice] Unpacking backup... (backup_2022-07-23-1152_Benny_Max_144696817628-others.zip, 0 MB)
+0117.979 (R) [notice] Unzip progress: 1 out of 1 files (28 B, index.php)
+0117.986 (R) [notice] Cleaning up rubbish...
+0120.195 (R) [notice] Restore successful!
